@@ -1,16 +1,45 @@
-## Hi there 👋
+# 🐟 PIRANA of Solana (POS)
 
-<!--
-**PIRANAOFSOLANA/piranaofsolana** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**The Most Fearless Meme Coin on Solana!**
 
-Here are some ideas to get you started:
+PIRANA is not just another fish in the sea — it’s the next predator of the memecoin world 🌊  
+Built for speed, community, and explosive gains.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🔥 Tokenomics
+
+- **Total Supply**: 10,000,000 POS
+- **Presale Allocation**: 60%
+- **Liquidity**: 30% (Locked 🔒)
+- **Team & Marketing**: 10%
+
+---
+
+## 🚀 Roadmap
+
+- ✅ Idea & Token Creation  
+- ✅ Website + Presale Launch  
+- 🔜 DEX Listing on Jupiter/Raydium  
+- 🔜 CMC & CG Listings  
+- 🔜 Marketing & Influencer Partnerships  
+- 🔜 Meme War & Viral Campaigns  
+
+---
+
+## 🌐 Official Links
+
+- 🔗 [Presale Website](https://pirana.vercel.app) *(Update after deploy)*
+- 📢 Twitter: [@piranaPOS](#)
+- 📬 Telegram: [t.me/piranapos](#)
+
+---
+
+## ⚠️ Disclaimer
+
+This project is a high-risk memecoin built for entertainment & degen fun.  
+**DYOR (Do Your Own Research)** before investing.
+
+---
+
+LET THE HUNGER BEGIN 🐟🔥
