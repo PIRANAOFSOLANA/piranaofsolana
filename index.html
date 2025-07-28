@@ -19,7 +19,7 @@
   <section class="banner">
     <h1>🐟 Welcome to PIRANA</h1>
     <p>The Fearless Meme Coin on Solana Blockchain</p>
-    <button class="buy-btn" onclick="alert('Presale coming soon! 🚀')">🚀 Join Presale</button>
+    <button class="buy-btn" onclick="joinPresale()">🚀 Join Presale</button>
   </section>
 
   <section id="tokenomics" class="card">
@@ -46,7 +46,8 @@
   <section id="presale" class="card presale">
     <h2>💰 Join the Presale</h2>
     <p>Get in early and ride the wave with PIRANA!</p>
-    <button class="wallet-btn" onclick="alert('Wallet connect feature coming soon!')">🔑 Connect Wallet</button>
+    <button class="wallet-btn" onclick="connectWallet()">🔑 Connect Wallet</button>
+    <div id="wallet-status" style="margin-top:10px; font-size:0.9rem;"></div>
   </section>
 
   <footer>
@@ -56,5 +57,32 @@
       <a href="#">📢 Telegram</a>
     </div>
   </footer>
+
+  <script>
+    let walletAddress = "";
+
+    async function connectWallet() {
+      try {
+        if (window.solana && window.solana.isPhantom) {
+          const resp = await window.solana.connect();
+          walletAddress = resp.publicKey.toString();
+          document.getElementById("wallet-status").innerText = "Connected: " + walletAddress;
+        } else {
+          alert("Phantom wallet not found. Please install it.");
+        }
+      } catch (err) {
+        console.error(err);
+        alert("Wallet connection failed!");
+      }
+    }
+
+    async function joinPresale() {
+      if (!walletAddress) {
+        alert("Please connect your wallet first.");
+        return;
+      }
+      alert("Presale transaction code will be added soon. Wallet connected: " + walletAddress);
+    }
+  </script>
 </body>
 </html>
