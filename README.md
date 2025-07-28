@@ -1,4 +1,4 @@
-# 🐟 PIRANA of Solana (POS)
+# 🐟 PIRANA of Solana ($POS)
 
 **The Most Fearless Meme Coin on Solana!**
 
